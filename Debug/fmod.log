@@ -1,0 +1,3249 @@
+FMOD: SystemI::init                  : FMOD Ex Version: 00043601
+FMOD: SystemI::init                  : maxchannels = 10, flags = 00000002, extradriverdata = 00000000
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Stop all sounds
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: SystemI::close                 : done.
+
+FMOD: OutputWASAPI::enumerate        : Enumerating...
+FMOD: OutputWASAPI::enumerate        : Initialise COM library.
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Speakers / Headphones (IDT High Definition Audio CODEC)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Rec. Playback (IDT High Definition Audio CODEC)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Microphone Array (IDT High Definition Audio CODEC)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "Microphone / Line In (IDT High Definition Audio CODEC)".
+FMOD: OutputWASAPI::enumerate        : Done.
+FMOD: OutputWASAPI::initEx           : Initialising...
+FMOD: OutputWASAPI::initEx           : Forcing output channels to match Windows mix format: 2 channel(s)
+FMOD: OutputWASAPI::initEx           : Done.
+FMOD: SystemI::init                  : Set up software engine
+FMOD: Thread::initThread             : Initializing FMOD (WASAPI) feeder thread.  priority 0
+FMOD: Thread::initThread             : - Stacksize 0.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD (WASAPI) feeder thread started
+FMOD: Thread::initThread             : done.
+FMOD: OutputWASAPI::feederUpdate     : WASAPI feeder thread set to 'Audio' characteristic
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 0.  Stack pointer 00000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD mixer thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : Set up emulated output
+FMOD: SystemI::init                  : create the channel pool
+FMOD: SystemI::init                  : Set up streamer
+FMOD: Thread::initThread             : Initializing FMOD stream thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD stream thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : done
+
+FMOD: SystemI::createSoundInternal   : filename = a.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F74FD0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F74FD0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02F74FD0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F82510)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = a.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F92D80)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F92D80)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02F92D80)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02F92D80)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = b.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FA37B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FA37B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FA37B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FA37B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = c.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FB41F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FB41F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FB41F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FB41F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = d.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FCD6C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FCD6C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FCD6C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FCD6C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = e.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FE0C48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FE0C48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FE0C48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FE0C48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 62120
+FMOD: CodecWav::parseRIFF            : chunk : id data size 62084
+FMOD: CodecWav::parseRIFF            : offset = 62120 / 62120
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 15521 samples, lengthbytes 62084
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 15521, lengthbytes 62084, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = f.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FF0530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FF0530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FF0530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FF0530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 44384
+FMOD: CodecWav::parseRIFF            : chunk : id data size 44348
+FMOD: CodecWav::parseRIFF            : offset = 44384 / 44384
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 11087 samples, lengthbytes 44348
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 11087, lengthbytes 44348, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = g.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FFB8D0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FFB8D0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (02FFB8D0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (02FFB8D0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 79860
+FMOD: CodecWav::parseRIFF            : chunk : id data size 79824
+FMOD: CodecWav::parseRIFF            : offset = 79860 / 79860
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19956 samples, lengthbytes 79824
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19956, lengthbytes 79824, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = h.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0300F700)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0300F700)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0300F700)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0300F700)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 110904
+FMOD: CodecWav::parseRIFF            : chunk : id data size 110868
+FMOD: CodecWav::parseRIFF            : offset = 110904 / 110904
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 27717 samples, lengthbytes 110868
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 27717, lengthbytes 110868, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = i.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0302AE78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0302AE78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0302AE78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0302AE78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 75424
+FMOD: CodecWav::parseRIFF            : chunk : id data size 75388
+FMOD: CodecWav::parseRIFF            : offset = 75424 / 75424
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 18847 samples, lengthbytes 75388
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 18847, lengthbytes 75388, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = j.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0303DB58)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0303DB58)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0303DB58)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0303DB58)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 90948
+FMOD: CodecWav::parseRIFF            : chunk : id data size 90912
+FMOD: CodecWav::parseRIFF            : offset = 90948 / 90948
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22728 samples, lengthbytes 90912
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22728, lengthbytes 90912, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = k.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015264E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015264E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015264E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015264E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 79860
+FMOD: CodecWav::parseRIFF            : chunk : id data size 79824
+FMOD: CodecWav::parseRIFF            : offset = 79860 / 79860
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19956 samples, lengthbytes 79824
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19956, lengthbytes 79824, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = l.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0153A310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0153A310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0153A310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0153A310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = m.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0154D898)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0154D898)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0154D898)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0154D898)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 68772
+FMOD: CodecWav::parseRIFF            : chunk : id data size 68736
+FMOD: CodecWav::parseRIFF            : offset = 68772 / 68772
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 17184 samples, lengthbytes 68736
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 17184, lengthbytes 68736, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = n.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0155EB78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0155EB78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0155EB78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0155EB78)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = o.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01572100)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01572100)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01572100)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01572100)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 86512
+FMOD: CodecWav::parseRIFF            : chunk : id data size 86476
+FMOD: CodecWav::parseRIFF            : offset = 86512 / 86512
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 21619 samples, lengthbytes 86476
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 21619, lengthbytes 86476, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = p.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01587930)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01587930)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01587930)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01587930)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 70992
+FMOD: CodecWav::parseRIFF            : chunk : id data size 70956
+FMOD: CodecWav::parseRIFF            : offset = 70992 / 70992
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 17739 samples, lengthbytes 70956
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 17739, lengthbytes 70956, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = q.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015994C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015994C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015994C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015994C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 97600
+FMOD: CodecWav::parseRIFF            : chunk : id data size 97564
+FMOD: CodecWav::parseRIFF            : offset = 97600 / 97600
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 24391 samples, lengthbytes 97564
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 24391, lengthbytes 97564, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = r.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015B1840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015B1840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015B1840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015B1840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 82076
+FMOD: CodecWav::parseRIFF            : chunk : id data size 82040
+FMOD: CodecWav::parseRIFF            : offset = 82076 / 82076
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 20510 samples, lengthbytes 82040
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 20510, lengthbytes 82040, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = s.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015C5F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015C5F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015C5F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015C5F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = t.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015DF3E8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015DF3E8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015DF3E8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015DF3E8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 86512
+FMOD: CodecWav::parseRIFF            : chunk : id data size 86476
+FMOD: CodecWav::parseRIFF            : offset = 86512 / 86512
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 21619 samples, lengthbytes 86476
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 21619, lengthbytes 86476, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = u.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015F4C18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015F4C18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (015F4C18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (015F4C18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 106468
+FMOD: CodecWav::parseRIFF            : chunk : id data size 106432
+FMOD: CodecWav::parseRIFF            : offset = 106468 / 106468
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 26608 samples, lengthbytes 106432
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 26608, lengthbytes 106432, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = v.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0160F238)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0160F238)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0160F238)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0160F238)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88728
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88692
+FMOD: CodecWav::parseRIFF            : offset = 88728 / 88728
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22173 samples, lengthbytes 88692
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22173, lengthbytes 88692, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = w.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01625310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01625310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01625310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01625310)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = x.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0163E7E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0163E7E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0163E7E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0163E7E0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 75424
+FMOD: CodecWav::parseRIFF            : chunk : id data size 75388
+FMOD: CodecWav::parseRIFF            : offset = 75424 / 75424
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 18847 samples, lengthbytes 75388
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 18847, lengthbytes 75388, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = y.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 90948
+FMOD: CodecWav::parseRIFF            : chunk : id data size 90912
+FMOD: CodecWav::parseRIFF            : offset = 90948 / 90948
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22728 samples, lengthbytes 90912
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22728, lengthbytes 90912, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = z.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01667E40)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01667E40)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01667E40)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01667E40)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = A.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01678878)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01678878)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01678878)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01678878)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = B.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016892B0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016892B0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016892B0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016892B0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = C.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01699CE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01699CE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01699CE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01699CE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = D.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016B31B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016B31B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016B31B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016B31B8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = E.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016C6740)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016C6740)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016C6740)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016C6740)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 62120
+FMOD: CodecWav::parseRIFF            : chunk : id data size 62084
+FMOD: CodecWav::parseRIFF            : offset = 62120 / 62120
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 15521 samples, lengthbytes 62084
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 15521, lengthbytes 62084, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = F.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6028)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6028)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016D6028)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6028)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 44384
+FMOD: CodecWav::parseRIFF            : chunk : id data size 44348
+FMOD: CodecWav::parseRIFF            : offset = 44384 / 44384
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 11087 samples, lengthbytes 44348
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 11087, lengthbytes 44348, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = G.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6638)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6638)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016D6638)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016D6638)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 79860
+FMOD: CodecWav::parseRIFF            : chunk : id data size 79824
+FMOD: CodecWav::parseRIFF            : offset = 79860 / 79860
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19956 samples, lengthbytes 79824
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19956, lengthbytes 79824, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = H.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016EA468)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016EA468)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (016EA468)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (016EA468)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 110904
+FMOD: CodecWav::parseRIFF            : chunk : id data size 110868
+FMOD: CodecWav::parseRIFF            : offset = 110904 / 110904
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 27717 samples, lengthbytes 110868
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 27717, lengthbytes 110868, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = I.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01705BE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01705BE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01705BE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01705BE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 75424
+FMOD: CodecWav::parseRIFF            : chunk : id data size 75388
+FMOD: CodecWav::parseRIFF            : offset = 75424 / 75424
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 18847 samples, lengthbytes 75388
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 18847, lengthbytes 75388, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = J.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01722840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01722840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01722840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01722840)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 90948
+FMOD: CodecWav::parseRIFF            : chunk : id data size 90912
+FMOD: CodecWav::parseRIFF            : offset = 90948 / 90948
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22728 samples, lengthbytes 90912
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22728, lengthbytes 90912, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = K.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017391C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017391C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017391C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017391C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 79860
+FMOD: CodecWav::parseRIFF            : chunk : id data size 79824
+FMOD: CodecWav::parseRIFF            : offset = 79860 / 79860
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19956 samples, lengthbytes 79824
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19956, lengthbytes 79824, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = L.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0174CFF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0174CFF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0174CFF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0174CFF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = M.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01760578)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01760578)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01760578)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01760578)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 68772
+FMOD: CodecWav::parseRIFF            : chunk : id data size 68736
+FMOD: CodecWav::parseRIFF            : offset = 68772 / 68772
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 17184 samples, lengthbytes 68736
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 17184, lengthbytes 68736, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = N.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01771858)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01771858)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01771858)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01771858)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 77644
+FMOD: CodecWav::parseRIFF            : chunk : id data size 77608
+FMOD: CodecWav::parseRIFF            : offset = 77644 / 77644
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 19402 samples, lengthbytes 77608
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 19402, lengthbytes 77608, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = O.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01784DE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01784DE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01784DE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01784DE0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 86512
+FMOD: CodecWav::parseRIFF            : chunk : id data size 86476
+FMOD: CodecWav::parseRIFF            : offset = 86512 / 86512
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 21619 samples, lengthbytes 86476
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 21619, lengthbytes 86476, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = P.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0179A610)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0179A610)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0179A610)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0179A610)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 70992
+FMOD: CodecWav::parseRIFF            : chunk : id data size 70956
+FMOD: CodecWav::parseRIFF            : offset = 70992 / 70992
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 17739 samples, lengthbytes 70956
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 17739, lengthbytes 70956, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = Q.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017AC1A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017AC1A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017AC1A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017AC1A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 97600
+FMOD: CodecWav::parseRIFF            : chunk : id data size 97564
+FMOD: CodecWav::parseRIFF            : offset = 97600 / 97600
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 24391 samples, lengthbytes 97564
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 24391, lengthbytes 97564, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = R.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017C4520)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017C4520)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017C4520)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017C4520)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 82076
+FMOD: CodecWav::parseRIFF            : chunk : id data size 82040
+FMOD: CodecWav::parseRIFF            : offset = 82076 / 82076
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 20510 samples, lengthbytes 82040
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 20510, lengthbytes 82040, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = S.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017D8BF8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017D8BF8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017D8BF8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017D8BF8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = T.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017F20C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017F20C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017F20C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017F20C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 86512
+FMOD: CodecWav::parseRIFF            : chunk : id data size 86476
+FMOD: CodecWav::parseRIFF            : offset = 86512 / 86512
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 21619 samples, lengthbytes 86476
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 21619, lengthbytes 86476, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = U.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018078F8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018078F8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (018078F8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018078F8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 106468
+FMOD: CodecWav::parseRIFF            : chunk : id data size 106432
+FMOD: CodecWav::parseRIFF            : offset = 106468 / 106468
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 26608 samples, lengthbytes 106432
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 26608, lengthbytes 106432, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = V.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01821F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01821F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01821F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01821F18)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88728
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88692
+FMOD: CodecWav::parseRIFF            : offset = 88728 / 88728
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22173 samples, lengthbytes 88692
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22173, lengthbytes 88692, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = W.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01837FF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01837FF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01837FF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01837FF0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 102032
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101996
+FMOD: CodecWav::parseRIFF            : offset = 102032 / 102032
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25499 samples, lengthbytes 101996
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25499, lengthbytes 101996, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = X.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (018514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018514C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 75424
+FMOD: CodecWav::parseRIFF            : chunk : id data size 75388
+FMOD: CodecWav::parseRIFF            : offset = 75424 / 75424
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 18847 samples, lengthbytes 75388
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 18847, lengthbytes 75388, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = Y.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018641A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018641A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (018641A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (018641A0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 90948
+FMOD: CodecWav::parseRIFF            : chunk : id data size 90912
+FMOD: CodecWav::parseRIFF            : offset = 90948 / 90948
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 22728 samples, lengthbytes 90912
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 22728, lengthbytes 90912, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = Z.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0187AB20)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0187AB20)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0187AB20)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0187AB20)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 66556
+FMOD: CodecWav::parseRIFF            : chunk : id data size 66520
+FMOD: CodecWav::parseRIFF            : offset = 66556 / 66556
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 16630 samples, lengthbytes 66520
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 16630, lengthbytes 66520, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 1.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0188B558)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0188B558)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (0188B558)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (0188B558)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 115092
+FMOD: CodecWav::parseRIFF            : chunk : id data size 115056
+FMOD: CodecWav::parseRIFF            : offset = 115092 / 115092
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 28764 samples, lengthbytes 115056
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 28764, lengthbytes 115056, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 2.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017061F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017061F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (017061F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (017061F0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 101396
+FMOD: CodecWav::parseRIFF            : chunk : id data size 101360
+FMOD: CodecWav::parseRIFF            : offset = 101396 / 101396
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 25340 samples, lengthbytes 101360
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 25340, lengthbytes 101360, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 3.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706800)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706800)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01706800)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706800)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 137004
+FMOD: CodecWav::parseRIFF            : chunk : id data size 136968
+FMOD: CodecWav::parseRIFF            : offset = 137004 / 137004
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 34242 samples, lengthbytes 136968
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 34242, lengthbytes 136968, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 4.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706E10)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706E10)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01706E10)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01706E10)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 139748
+FMOD: CodecWav::parseRIFF            : chunk : id data size 139712
+FMOD: CodecWav::parseRIFF            : offset = 139748 / 139748
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 34928 samples, lengthbytes 139712
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 34928, lengthbytes 139712, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 5.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707420)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707420)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01707420)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707420)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 180836
+FMOD: CodecWav::parseRIFF            : chunk : id data size 180800
+FMOD: CodecWav::parseRIFF            : offset = 180836 / 180836
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 45200 samples, lengthbytes 180800
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 45200, lengthbytes 180800, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 6.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707A30)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707A30)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01707A30)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01707A30)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 153444
+FMOD: CodecWav::parseRIFF            : chunk : id data size 153408
+FMOD: CodecWav::parseRIFF            : offset = 153444 / 153444
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 38352 samples, lengthbytes 153408
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 38352, lengthbytes 153408, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 7.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708040)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708040)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01708040)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708040)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 150708
+FMOD: CodecWav::parseRIFF            : chunk : id data size 150672
+FMOD: CodecWav::parseRIFF            : offset = 150708 / 150708
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 37668 samples, lengthbytes 150672
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 37668, lengthbytes 150672, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 8.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708650)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708650)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01708650)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708650)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 98652
+FMOD: CodecWav::parseRIFF            : chunk : id data size 98616
+FMOD: CodecWav::parseRIFF            : offset = 98652 / 98652
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 24654 samples, lengthbytes 98616
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 24654, lengthbytes 98616, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 9.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708C60)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708C60)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01708C60)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01708C60)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 123308
+FMOD: CodecWav::parseRIFF            : chunk : id data size 123272
+FMOD: CodecWav::parseRIFF            : offset = 123308 / 123308
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 30818 samples, lengthbytes 123272
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 30818, lengthbytes 123272, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = 0.wav : mode 00000050
+FMOD: SystemI::createSoundInternal   : 20 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01709270)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01709270)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01709270)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [RIF]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01709270)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 126044
+FMOD: CodecWav::parseRIFF            : chunk : id data size 126008
+FMOD: CodecWav::parseRIFF            : offset = 126044 / 126044
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000050 length 31502 samples, lengthbytes 126008
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 002CEDD0
+FMOD: SystemI::createSample          : mSoftware = 002CEDD0
+FMOD: OutputSoftware::createSample   : lengthpcm 31502, lengthbytes 126008, channels 2, format 2, mode 00000051
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
