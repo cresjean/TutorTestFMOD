@@ -1,9 +1,6 @@
-
 #include "stdafx.h"
-
 #include "fmod.hpp"
 #include "fmod_errors.h"
-
 #include "sound.h"
 
 using namespace FMOD;
